@@ -28,13 +28,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Loginnnn</title>
+  <title>Login</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="auth.css">
 </head>
 <body>
   <div class="auth-box">
-    <h2>Login</h2>
+    <h2>Loginnnnnn</h2>
     <?php if (!empty($error)) echo "<p>$error</p>"; ?>
     <form method="post">
       <input type="text" name="benutzername" placeholder="Benutzername" required>
