@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
   <div class="auth-box">
-    <h2>Loginnnnnn</h2>
+    <h2>Login</h2>
     <?php if (!empty($error)) echo "<p>$error</p>"; ?>
     <form method="post">
       <input type="text" name="benutzername" placeholder="Benutzername" required>
